@@ -1,10 +1,10 @@
 # Site settings
 title: legendjw
-url: "http://legendjw.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+url: "http://blog.legendjw.com"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 #baseurl: "/" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
 #timezone: Asia/Chongqing
 description: >
-  记录生活、留住时光
+  记录生活的点点滴滴
 
 # Your information
 email: legendjw@yeah.net
