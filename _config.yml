@@ -1,6 +1,6 @@
 # Site settings
 title: legendjw
-url: "http://blog.legendjw.com" 
+url: "http://www.legendjw.com" 
 #baseurl: "/" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
 #timezone: Asia/Chongqing
 description: >
@@ -11,8 +11,10 @@ email: legendjw@yeah.net
 author: legendjw
 avatar: "//www.gravatar.com/avatar/48dca7e5d8f527e044bbe9d16180d7b0?d=mm&s=135"
 profile: 做一个热爱生活、有意思的人
-twitter_username: legendjww
 github_username: legendjw
+twitter_username: legendjww
+facebook_username: legendjw
+repo: https://github.com/legendjw/legendjw.github.io
 
 # Comment Service (Disqus or 多说)
 #  choose one and un-comment the line to active it

@@ -1,4 +1,5 @@
 .home {
+  height: 100%;
 .page-heading {
 	font-size:40px;
 	font-weight: normal;
@@ -99,4 +100,103 @@
     	text-decoration:none;
     }
 }
+}
+
+
+// home hero presentation
+body.home {
+  width: 100%;
+  display: table;
+}
+
+.hero {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+
+  .btn.btn-ghost, .btn-ghost.sliding-panel-button {
+    background-color: transparent;
+    border: 2px solid #337ab7;
+    color: #337ab7;
+  }
+
+  .btn, .sliding-panel-button {
+    appearance: none;
+    background-color: #337ab7;
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Open Sans","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    font-size: 1em;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 600;
+    line-height: 1;
+    padding: .75em 1.5em;
+    text-decoration: none;
+    transition: background-color .2s ease;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+
+}
+
+.hero-inner {
+  text-align: center;
+  display: inline-block;
+  padding: 1.5em;
+
+  .dot {
+    padding: 5px;
+    border: 1px solid #dedede;
+    border-radius: 50%;
+  }
+
+  h1 {
+    margin-top: .7em;
+    font-size: rem(40);
+  }
+
+  h3 {
+    font-size: rem(20);
+    margin: .8em 0 1.2em;
+
+  }
+
+  h3, em {
+    font-weight: 300;
+  }
+
+  em {
+    color: #337ab7;
+  }
+
+  strong {
+    font-weight: 700;
+  }
+}
+
+.social {
+  padding: 0.5em 0;
+
+  li {
+    display: inline-block;
+    padding: 0 .6em;
+  }
+
+  a {
+    color: #9a9a9a;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: #337ab7;
+    }
+  }
+
+  i {
+    font-size: 1.2em;
+  }
 }

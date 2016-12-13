@@ -11,7 +11,7 @@
 .header {
 	line-height: $base-font-size * 2;
   background-color: #fff;
-  padding: 15px 0;
+  padding: 20px 0;
   margin-bottom: 1.5em;
   border-bottom: 1px solid rgba(222,222,222,0.5);
 	
@@ -153,16 +153,15 @@
 	.contact {
 		margin-top: 10px;
 		a {
-			background: #999;
-			color: #eee;
-			padding: 5px 10px;
+			color: #9a9a9a;
+			padding: 5px;
 			text-decoration: none;
 			border-radius: 5px;
     		white-space: nowrap;
 			
 			&:hover {
-				transition: background 0.3s ease;
-				background: #666;
+				transition: #337ab7 0.3s ease;
+        color: #337ab7;
 			}
 		}
 	}

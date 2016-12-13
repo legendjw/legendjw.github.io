@@ -17,4 +17,4 @@ web后端工程师，现为自由工作者
 邮箱：
 
  - legendjw@yeah.net
- - legendjww@gmail.net
+ - legendjww@gmail.com

@@ -1,44 +1,20 @@
 ---
-layout: default
+layout: home
 ---
 
-<div class="home">
-  <a class="rss-link" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS Feed</a>
+<section class="hero">
 
-  <ul class="post-list">
-    {% for post in paginator.posts %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        
-        <div class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</div>
+  <div class="hero-inner container">
 
-        <div class="post-excerpt">
-          {{ post.excerpt }}
-          <!--
-          <p>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More &raquo;</a>
-          </p>
-          -->
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
-  
-  <!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">PREV</a>
-  {% else %}
-    <span class="previous">PREV</span>
-  {% endif %}
-  <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">NEXT</a>
-  {% else %}
-    <span class="next ">NEXT</span>
-  {% endif %}
-</div>
+    <img src="{{ site.avatar | prepend: site.baseurl }}" alt="author thumb" class="dot">
+    <h3><strong >我是legendjw, 一个自由工作者</strong></h3>
+    <h3><strong >{{ site.profile }}</strong></h3>
 
-</div>
+    <a href="{{ '/about' | prepend: site.baseurl }}" class="btn btn-ghost">关于</a>
+    <a href="{{ '/blog' | prepend: site.baseurl }}" class="btn btn-ghost">博客</a>
+
+    {% include social.html %}
+
+  </div>
+
+</section>

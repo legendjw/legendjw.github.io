@@ -4,13 +4,13 @@
   <p>{{ site.profile }}</p>
   <p class="contact">
     {% if site.github_username %}
-    <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+    <a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="icon icon-github"></i></a>
     {% endif %}
     {% if site.twitter_username %}
-    <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
+    <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="icon icon-twitter"></i></a>
     {% endif %}
-    {% if site.email %}
-    <a href="mailto:{{ site.email }}">Email</a>
+    {% if site.facebook_username %}
+    <a href="https://facebook.com/{{ site.facebook_username }}" target="_blank"><i class="icon icon-facebook"></i></a>
     {% endif %}
   </p>
 </div>
