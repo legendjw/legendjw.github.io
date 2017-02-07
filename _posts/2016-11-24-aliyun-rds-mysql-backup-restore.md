@@ -30,6 +30,7 @@ bash rds_backup_extract -f backup.tar.gz/back.xb.gz  -C directory
 ```
 
 XtraBackup使用说明：
+
 ```bash
 innobackupex --defaults-file=/home/mysql/data/backup-my.cnf --apply-log /home/mysql/data
 
@@ -39,6 +40,7 @@ innobackupex --defaults-file=/home/mysql/data/backup-my.cnf --apply-log /home/my
 ```
 
 注意点：
+
 - 由于使用解压还原软件的限制，还原环境只能为**64位**的**Linux**系统。所以需要还原的同学如果
 只有Windows系统或者装了32位的Liunx系统都无法正常进行还原!
 
